@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.conteiner {
+  width: 100%;
+  height: 100%;
+  padding: 35px 100px;
+}
+
+.conteiner .p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+
+.conteiner .home {
+    color: #a5a5b4;
+    font-family: Gilroy;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.conteiner .only {
+    color: #ffc700;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.conteiner .p {
+  color: #000;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+h1 {
+  color: #000;
+  text-align: center;
+  font-family: Gilroy;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.conteiner .today {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.conteiner .today .item {
+  width: 629px;
+  height: 123px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #f0f0f0;
+  padding: 20px;
+}
+
+.conteiner .today .item .chek {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  border: 1px solid #999;
+  background: #f0f0f0;
+}
+
+.conteiner .today .item .buy {
+  color: #000;
+  font-family: Gilroy;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.conteiner .today .item .title {
+  color: #a5a5b4;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+  top: 5px;
+}
+
+.conteiner .today .item .day {
+  color: #ffc700;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  top: 15px;
+}
+
+.conteiner .today .item .box {
+  position: relative;
+  left: 27px;
+  bottom: 19px;
+}
